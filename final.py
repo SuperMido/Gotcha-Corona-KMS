@@ -15,82 +15,54 @@ CORONA_4 = os.path.dirname(os.path.abspath(__file__)) + '/corona4.png'
 CORONA_5 = os.path.dirname(os.path.abspath(__file__)) + '/corona5.png'
 CORONA_6 = os.path.dirname(os.path.abspath(__file__)) + '/corona6.png'
 CORONA_7 = os.path.dirname(os.path.abspath(__file__)) + '/corona7.png'
-# Not use
 CORONA_8 = os.path.dirname(os.path.abspath(__file__)) + '/corona8.png'
 CORONA_9 = os.path.dirname(os.path.abspath(__file__)) + '/corona9.png'
 CORONA_10 = os.path.dirname(os.path.abspath(__file__)) + '/corona10.png'
-# Queen
 CORONA_11 = os.path.dirname(os.path.abspath(__file__)) + '/corona11.png'
 CORONA_12 = os.path.dirname(os.path.abspath(__file__)) + '/corona12.png'
-CORONA_13 = os.path.dirname(os.path.abspath(__file__)) + '/corona13.png'
-CORONA_14 = os.path.dirname(os.path.abspath(__file__)) + '/corona14.png'
-CORONA_15 = os.path.dirname(os.path.abspath(__file__)) + '/corona15.png'
-CORONA_16 = os.path.dirname(os.path.abspath(__file__)) + '/corona16.png'
-CORONA_17 = os.path.dirname(os.path.abspath(__file__)) + '/corona17.png'
 CORONA_SCALE_RATIO = 0.5
 
-# corona_template_image_1 = cv2.imread(CORONA_1, 0)
-# corona_template_image_2 = cv2.imread(CORONA_2, 0)
-# corona_template_image_3 = cv2.imread(CORONA_3, 0)
+corona_template_image_1 = cv2.imread(CORONA_1, 0)
+corona_template_image_2 = cv2.imread(CORONA_2, 0)
+corona_template_image_3 = cv2.imread(CORONA_3, 0)
 corona_template_image_4 = cv2.imread(CORONA_4, 0)
 
-# corona_template_image_5 = cv2.imread(CORONA_5, 0)
-# corona_template_image_6 = cv2.imread(CORONA_6, 0)
-# corona_template_image_7 = cv2.imread(CORONA_7, 0)
-# Not use
-# corona_template_image_8 = cv2.imread(CORONA_8, 0)
+corona_template_image_5 = cv2.imread(CORONA_5, 0)
+corona_template_image_6 = cv2.imread(CORONA_6, 0)
+corona_template_image_7 = cv2.imread(CORONA_7, 0)
+corona_template_image_8 = cv2.imread(CORONA_8, 0)
 corona_template_image_9 = cv2.imread(CORONA_9, 0)
-# corona_template_image_10 = cv2.imread(CORONA_10, 0)
-# Queen
+corona_template_image_10 = cv2.imread(CORONA_10, 0)
 corona_template_image_11 = cv2.imread(CORONA_11, 0)
 corona_template_image_12 = cv2.imread(CORONA_12, 0)
-corona_template_image_13 = cv2.imread(CORONA_13, 0)
-corona_template_image_14 = cv2.imread(CORONA_14, 0)
-corona_template_image_15 = cv2.imread(CORONA_15, 0)
-corona_template_image_16 = cv2.imread(CORONA_16, 0)
-corona_template_image_17 = cv2.imread(CORONA_17, 0)
 
-# corona_template_image_1 = cv2.resize(corona_template_image_1, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
-# corona_template_image_2 = cv2.resize(corona_template_image_2, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
-# corona_template_image_3 = cv2.resize(corona_template_image_3, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
+corona_template_image_1 = cv2.resize(corona_template_image_1, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
+corona_template_image_2 = cv2.resize(corona_template_image_2, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
+corona_template_image_3 = cv2.resize(corona_template_image_3, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
 corona_template_image_4 = cv2.resize(corona_template_image_4, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
 
-# corona_template_image_5 = cv2.resize(corona_template_image_5, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
-# corona_template_image_6 = cv2.resize(corona_template_image_6, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
-# corona_template_image_7 = cv2.resize(corona_template_image_7, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
-# Not use
-# corona_template_image_8 = cv2.resize(corona_template_image_8, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
+corona_template_image_5 = cv2.resize(corona_template_image_5, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
+corona_template_image_6 = cv2.resize(corona_template_image_6, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
+corona_template_image_7 = cv2.resize(corona_template_image_7, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
+corona_template_image_8 = cv2.resize(corona_template_image_8, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
 corona_template_image_9 = cv2.resize(corona_template_image_9, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
-# corona_template_image_10 = cv2.resize(corona_template_image_10, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
-# Queen
+corona_template_image_10 = cv2.resize(corona_template_image_10, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
 corona_template_image_11 = cv2.resize(corona_template_image_11, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
 corona_template_image_12 = cv2.resize(corona_template_image_12, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
-corona_template_image_13 = cv2.resize(corona_template_image_13, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
-corona_template_image_14 = cv2.resize(corona_template_image_14, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
-corona_template_image_15 = cv2.resize(corona_template_image_15, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
-corona_template_image_16 = cv2.resize(corona_template_image_16, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
-corona_template_image_17 = cv2.resize(corona_template_image_17, None, fx=CORONA_SCALE_RATIO, fy=CORONA_SCALE_RATIO)
 
 corona_template = []
-# corona_template.append(corona_template_image_1)
-# corona_template.append(corona_template_image_2)
+corona_template.append(corona_template_image_1)
+corona_template.append(corona_template_image_2)
 # corona_template.append(corona_template_image_3)
 corona_template.append(corona_template_image_4)
-
 # corona_template.append(corona_template_image_5)
 # corona_template.append(corona_template_image_6)
 # corona_template.append(corona_template_image_7)
 # corona_template.append(corona_template_image_8)
-corona_template.append(corona_template_image_9)
+# corona_template.append(corona_template_image_9)
 # corona_template.append(corona_template_image_10)
-# Queen
-corona_template.append(corona_template_image_11)
-corona_template.append(corona_template_image_12)
-corona_template.append(corona_template_image_13)
-corona_template.append(corona_template_image_14)
-corona_template.append(corona_template_image_15)
-corona_template.append(corona_template_image_16)
-corona_template.append(corona_template_image_17)
+# corona_template.append(corona_template_image_11)
+# corona_template.append(corona_template_image_12)
 
 def catch_corona(wave_image, threshold=0.8):
     wave_image_gray = cv2.cvtColor(wave_image, cv2.COLOR_BGR2GRAY)
@@ -153,8 +125,8 @@ async def play_game(websocket, path):
                 catchings.append({
                     "positions": [
                         {
-                            "x": (res[0][0] + res[1][0]) / 2, 
-                            "y": (res[0][1] + res[1][1]) / 2
+                            "x": (res[0][0] + res[1][0]) / 2, #random.randint(res[0][0], res[1][0])
+                            "y": (res[0][1] + res[1][1]) / 2 # #random.randint(res[0][1], res[1][1])
                         }
                     ],
                     "waveId": json_data["waveId"]
